@@ -1,0 +1,169 @@
+input {
+    margin: 0px;
+    padding: 1px;
+    width: 100%;
+    outline: none;
+    height: 40px;
+    border-radius: 5px;
+}
+
+button {
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    right: 0px;
+    z-index: 2;
+    border: 2px solid black;
+    top: 0px;
+    height: 39px;
+    cursor: pointer;
+    color: white;
+    background-color: #ff6f47;
+    transform: translateX(2px);
+}
+
+p {
+    color: white;
+    background-color: #ff6f47;
+    margin: 0px;
+    padding: 1px;
+    width: 100%;
+    outline: none;
+    height: 39px;
+    border-radius: 5px;
+}
+
+.delete {
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    right: 0px;
+    z-index: 2;
+    border: 2px solid black;
+    top: 0px;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    background-color: #ff6f47;
+    transform: translateX(2px);
+}
+
+h1 {
+    background-color: orange;
+    display: inline;
+}
+
+
+/* If screen size is less  than 480px wide then below peoperties should apply */
+
+@media (max-width: 480px) {
+    .a {
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        position: relative;
+    }
+}
+
+
+/* If screen size is greater  than 481px  and less than 1024px wide then below peoperties should apply */
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .a {
+        margin-top: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        position: relative;
+    }
+}
+
+
+/* If screen size is greater  than 1024 px  wide then below peoperties should apply */
+
+@media (min-width: 1025px) {
+    .a {
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+        position: relative;
+    }
+}
+
+@media (max-width: 480px) {
+    .innercontainer {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        position: relative;
+        border: 3px solid black;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .innercontainer {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        position: relative;
+        border: 3px solid black;
+    }
+}
+
+@media (min-width: 1025px) {
+    .innercontainer {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        position: relative;
+        border: 3px solid black;
+    }
+}
+
+body {
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 480px) {
+    /* body {
+        background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+        color: white;
+        font-family: "Poppins", sans-serif;
+        min-height: 100vh;
+    } */
+    body {
+        background-image: url(https://source.unsplash.com/1200x800/?food,fooditems);
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    /* body {
+        background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+        color: white;
+        font-family: "Poppins", sans-serif;
+        min-height: 100vh;
+    } */
+    body {
+        background-image: url(https://source.unsplash.com/1200x800/?food,fooditems);
+    }
+}
+
+@media (min-width: 1025px) {
+    /* body {
+        background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+        color: white;
+        font-family: "Poppins", sans-serif;
+        min-height: 100vh;
+    } */
+    body {
+        background-image: url(https://source.unsplash.com/1200x800/?food,fooditems);
+    }
+}
